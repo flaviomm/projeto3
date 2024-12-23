@@ -1,0 +1,39 @@
+#brand {
+    font-family: "Nosifer", serif;
+    color: red;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:visited {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.container {
+    max-width: 800px;
+}
+
+#home p {
+    font-family: "Creepster", serif;
+    color: #fff;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: "Creepster", serif;
+    font-size: 5em;
+    color: red;
+}
+
+h2 {
+    color: #fff;
+}
+#horario {
+    color: black;
+}
