@@ -49,8 +49,8 @@
 
     <main>
         <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-            <section id="home" class="mb-5">
-                <div class="container">
+            <section id="home" class="mb-5 border-bottom border-danger">
+                <div class="container mb-2">
                     <div class="row">
                         <div class="col-md-4">
                             <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -62,7 +62,7 @@
                                         <img src="assets/images/exorcista.jpg" class="d-block w-100">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/images/freddy.jpg" class="d-block w-100">
+                                        <img src="assets/images/pesadelo.jpg" class="d-block w-100">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3000">
                                         <img src="assets/images/halloween.jpg" class="d-block w-100">
@@ -96,14 +96,15 @@
                         </div>
                         <div class="col-md-8 text-center d-flex flex-column justify-content-center align-items-center">
                             <h1>Cine Dark</h1>
-                            <p>Nossos filmes vão te assombrar a vida inteira. Aqui garantimos que você vai dormir com a
+                            <p>Nossos filmes vão te assombrar a vida inteira. </p>
+                            <p>Aqui garantimos que você vai dormir com a
                                 luz acesa.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="programacao">
+            <section id="programacao" class="border-bottom border-danger mb-5">
                 <div class="container">
                     <h2 class="mb-2">Programação</h2>
                     <div class="p-0">
@@ -127,7 +128,7 @@
                             <div id="aba1" class="tab-pane active">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="card">
+                                        <div class="card mb-3">
                                             <img src="assets/images/evildead.jpg" class="card-img-top d-block w-100">
                                             <div class="card-body text-center">
                                                 <h5 class="card-title">Evil Dead</h5>
@@ -139,8 +140,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="card">
-                                            <img src="assets/images/freddy.jpg" class="card-img-top d-block w-100">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/pesadelo.jpg" class="card-img-top d-block w-100">
                                             <div class="card-body text-center">
                                                 <h5 class="card-title">A Hora do Pesadelo</h5>
                                                 <p>Sala 2</p>
@@ -151,10 +152,10 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="card">
+                                        <div class="card mb-3">
                                             <img src="assets/images/halloween.jpg" class="card-img-top d-block w-100">
                                             <div class="card-body text-center">
-                                                <h5 class="card-title">Evil Dead</h5>
+                                                <h5 class="card-title">Halloween</h5>
                                                 <p>Sala 1</p>
                                                 <p>21:00hs</p>
                                                 <a href="#" class="btn btn-primary">Comprar <i
@@ -165,28 +166,315 @@
                                 </div>
                             </div>
                             <div id="aba2" class="tab-pane">
-                                Conteúdo da aba Masculino
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/panico.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Pânico</h5>
+                                                <p>Sala 1</p>
+                                                <p>19:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/invocacao.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Invocação do Mal</h5>
+                                                <p>Sala 2</p>
+                                                <p>20:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/exorcista.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">O Exorcista</h5>
+                                                <p>Sala 1</p>
+                                                <p>21:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div id="aba3" class="tab-pane">
-                                Conteúdo da aba Feminino
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/evildead.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Evil Dead</h5>
+                                                <p>Sala 1</p>
+                                                <p>19:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/pesadelo.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">A Hora do Pesadelo</h5>
+                                                <p>Sala 2</p>
+                                                <p>20:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/halloween.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Halloween</h5>
+                                                <p>Sala 1</p>
+                                                <p>21:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="aba4" class="tab-pane active">
-                                Conteúdo da aba Eletrônicos
+                            <div id="aba4" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/panico.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Pânico</h5>
+                                                <p>Sala 1</p>
+                                                <p>19:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/invocacao.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Invocação do Mal</h5>
+                                                <p>Sala 2</p>
+                                                <p>20:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/exorcista.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">O Exorcista</h5>
+                                                <p>Sala 1</p>
+                                                <p>21:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div id="aba5" class="tab-pane">
-                                Conteúdo da aba Masculino
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/evildead.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Evil Dead</h5>
+                                                <p>Sala 1</p>
+                                                <p>19:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/pesadelo.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">A Hora do Pesadelo</h5>
+                                                <p>Sala 2</p>
+                                                <p>20:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/halloween.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Halloween</h5>
+                                                <p>Sala 1</p>
+                                                <p>21:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div id="aba6" class="tab-pane">
-                                Conteúdo da aba Feminino
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/panico.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Pânico</h5>
+                                                <p>Sala 1</p>
+                                                <p>19:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/invocacao.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Invocação do Mal</h5>
+                                                <p>Sala 2</p>
+                                                <p>20:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/exorcista.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">O Exorcista</h5>
+                                                <p>Sala 1</p>
+                                                <p>21:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="aba7" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/evildead.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Evil Dead</h5>
+                                                <p>Sala 1</p>
+                                                <p>19:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/pesadelo.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">A Hora do Pesadelo</h5>
+                                                <p>Sala 2</p>
+                                                <p>20:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-3">
+                                            <img src="assets/images/halloween.jpg" class="card-img-top d-block w-100">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">Halloween</h5>
+                                                <p>Sala 1</p>
+                                                <p>21:00hs</p>
+                                                <a href="#" class="btn btn-primary">Comprar <i
+                                                        class="bi bi-currency-dollar"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <section id="fale-conosco" class="mb-5">
+                <div class="container">
+                    <h2>Entre em contato</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Seu Nome</label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Seu E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Seu Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" name="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="textArea" class="form-label">Digite sua mensagem</label>
+                            <textarea class="form-control" id="textArea" name="textArea" rows="10"
+                                placeholder="Digite seu texto" style="resize: none;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </section>
         </div>
     </main>
 
+    <footer class="p-4 bg-dark" data-bs-theme="dark">
+        <div id="p-footer" class="container d-flex flex-column align-items-center">
+            <p class="h5">&copy; 2024 - CineDark</p>
+            <p><i class="bi bi-geo-alt"></i>Avenida Terror, 666 - Inferno, Brasil</p>
+            <div class="row">
+                <ul class="social-links">
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-facebook text-colored"></i>
+                        </a>
+                    </li>
+                    <li class="fs-5 ms-1 me-1">
+                        <a href="#">
+                            <i class="bi bi-instagram text-colored"></i>
+                        </a>
+                    </li>
+                    <li class="fs-5">
+                        <a href="#">
+                            <i class="bi bi-whatsapp text-colored"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
